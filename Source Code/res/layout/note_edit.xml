@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/noteMenuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/noteTitel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.5"
+            android:focusable="false"
+            android:text="TextView"
+            android:textIsSelectable="false" />
+
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/thimo_button"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/ic_action_edit" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@drawable/thimo_button"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/ic_action_discard" />
+
+    </LinearLayout>
+
+</LinearLayout>

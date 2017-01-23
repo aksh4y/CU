@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303030"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Test" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:background="@drawable/field_bg"  
+		android:layout_marginTop="10dp"      
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"  >
+
+        <TextView
+            android:id="@+id/parentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+    android:background="@drawable/field_bg"     
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:id="@+id/NumberLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/adressField"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/numberField"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:text="@string/number1" />
+
+            <GridLayout
+                android:id="@+id/ButtonGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:columnCount="4" >
+
+                <ImageButton
+                    android:id="@+id/callButton"
+                    android:layout_column="2"
+                    android:layout_gravity="left|top"
+                    android:layout_row="0"
+                android:background="@drawable/thimo_button"
+                    android:src="@drawable/ic_action_call"  
+                   />
+<!-- android:src="@drawable/ic_action_map"   -->
+                <ImageButton
+                    android:id="@+id/mapButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                android:background="@drawable/thimo_button"
+                    
+                    />
+            </GridLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/adressField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Test Text" />
+
+    </RelativeLayout>
+
+</LinearLayout>

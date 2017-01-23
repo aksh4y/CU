@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">\@CU</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    	<string name="color_stripe">Color Stripe</string>
+    	<string name="title">Title</string>
+    	 <string name="desc">Description</string>
+	<string name="overflow">Menu Overflow</string>
+	
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Notes</item>
+        <item >Photos</item>
+        <item >Map</item>
+        <item >Schedule</item>
+        <item >Events</item>
+        <item >Contacts</item>
+        <item >Forex</item>
+        <item >Translator</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/map</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/event</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/translator</item>
+    </array>
+    
+    <string-array name="Source_Currency">
+        <item>€uro</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>INR</item>
+        <item>JPY</item>
+    </string-array>
+    
+        <!-- NotePad Strings -->
+
+    <string name="title_activity_note_writer">NoteWriter</string>
+    <string name="done">Done</string>
+    <string name="title_activity_note_menu">NoteMenu</string>
+    <string name="edit">Edit</string>
+    <string name="New">New</string>
+    <string name="newTitle">New Note</string>
+    <string name="newTitleDescription">Type in a name for your note</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="editTitle">Change title</string>
+    <string name="editTitleDescription">Type in a new name for your file</string>
+     <string name="deleteTitle">Delete note</string>
+    <string name="deleteTitleDescription">Are you sure?</string>
+    
+     <string-array name="address">
+        <item>"Hosur Main Road \nBangalore \nKarnataka 560029"</item>
+        <item></item>
+        <item></item>
+         <item></item>
+         <item></item>
+    </string-array>
+
+    <string name="call">Call</string>
+    <string name="show">Show</string>
+    <string name="number1">09162 8554</string>
+
+ <string-array name="Numbers">
+        <item>+918040129100</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>108</item>
+    </string-array>
+    
+    <string-array name="Source_Language">
+        <item>German</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Italian</item>
+        <item>French</item>
+    </string-array>
+    
+    <string-array name="names">
+        <item>Christ University</item>
+        <item>Police</item>
+        <item>Fire</item>
+         <item>Ambulance</item>
+         <item>Emergency response for \nmedical, police and fire</item>
+    </string-array>
+    
+    
+    <!-- Content Description -->
+    
+    <string name="desc_list_item_icon">Title Icon</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From @CU Server: Successfully added device! Please Restart @CU</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+</resources>
