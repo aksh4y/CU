@@ -29,7 +29,9 @@ The proposed system aims to solve the various difficulties faced by the internat
 ![img](Images/Readme-13.jpg)
 ![img](Images/Readme-14.jpg)
 
-### Check out our [demo video] (https://youtu.be/0JahrYb6f5c)
+### Check out the [demo video](https://youtu.be/0JahrYb6f5c)
 
 ## Bugs and Feedback
 For bugs, questions and discussions please use the [Github Issues](https://github.com/aksh4y/CU/issues).
+
+
